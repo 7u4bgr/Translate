@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.678)), url(img.jpg) center/cover;
+  width: 100%;
+  height: 100vh;
+}
+.img .inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-top: 350px;
+}
+.img .inputs input {
+  width: 500px;
+  height: 10vh;
+  font-size: 50px;
+  border: 0;
+  border: 2px solid red;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: transparent;
+}
+.img .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.img .buttons button {
+  width: 250px;
+  height: 6vh;
+  border: 2px solid cadetblue;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+}
+.img .vectors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.img .vectors .vector {
+  background: url(vector.png) center/cover;
+  width: 150px;
+  height: 150px;
+  border: 0;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 70px;
+}
+.img .vectors .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 180px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.img .vectors .vector2 {
+  background: url(vector2.png) center/cover;
+  width: 170px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 70px;
+  border-radius: 40px;
+}/*# sourceMappingURL=style.css.map */
